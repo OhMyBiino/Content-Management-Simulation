@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace ContentManagementSimulator
 {
-    public class Article : Content
+    public interface IContentSaver
     {
-        
+        public void Save(IContentItem content);
     }
 }

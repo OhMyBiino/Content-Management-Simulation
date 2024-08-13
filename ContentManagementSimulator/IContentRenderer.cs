@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace ContentManagementSimulator
 {
-    public class Article : Content
+    public interface IContentRenderer
     {
-        
+        public void Render(IContentItem content);
     }
 }

@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace ContentManagementSimulator
 {
-    public class Article : Content
+    public interface ITimed
     {
-        
+        public int Duration { get; set; }
     }
 }

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ContentManagementSimulator
 {
-    internal class Video
+    public class Video : Content, ITimed
     {
+        public int Duration { get; set; }
     }
 }

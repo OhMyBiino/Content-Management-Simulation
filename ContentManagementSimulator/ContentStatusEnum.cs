@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace ContentManagementSimulator
 {
-    public class Article : Content
+    public enum ContentStatus
     {
-        
+        published,
+        unpublished,
+        archived,
+        drafted,
+        scheduled,
+        deleted
     }
 }
